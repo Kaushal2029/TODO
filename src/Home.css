@@ -1,0 +1,78 @@
+.hcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 30px 500px 500px;
+  padding: 13px 4px 50px;
+}
+.hheader {
+  display: flex;
+  padding: 10px;
+  gap: 2rem;
+}
+.hheader h1 {
+  /* margin-left: 20px; */
+}
+.hheader button {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.hheader button:hover {
+  background-color: rgb(101, 212, 101);
+}
+
+.htask {
+  background-color: lightgray;
+  margin: 20px;
+  display: flex;
+  gap: 14rem;
+  line-height: 10px;
+}
+.htext {
+  display: block;
+  margin-left: 10px;
+}
+.htask a {
+  line-height: 30px;
+}
+
+.reminder-active {
+  background-color: #fffacd; /* Light yellow background for active reminders */
+}
+
+.htask-dis {
+  width: 78%;
+  height: 60px;
+  background: rgb(234, 234, 234);
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.htask1,
+.htask2
+{
+  width: 80%;
+}
+
+.htask3 {
+  margin-left: 226px;
+  margin-top: -50px;
+  color: red;
+}
+
+.reminder-active {
+  background-color: #90ee90;
+}
+.htask1,
+.htask2 {
+  text-align: left;
+  padding: 5px 15px;
+}
